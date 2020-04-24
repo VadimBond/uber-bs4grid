@@ -1,0 +1,9 @@
+dist/
+.vscode/
+UBER_course.psd
+robots.txt
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*

@@ -1,0 +1,148 @@
+@import "fonts.css";
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper-bg {
+  background: url(../img/main/main_bg.jpg) center center/cover no-repeat;
+}
+
+/* header */
+.header-nav {
+  min-height: 50px;
+  background-color: #212121;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  list-style-type: none;
+}
+
+.menu__item {
+  border-right: 2px dotted #000000;
+  padding-right: 30px;
+
+}
+.menu__item:last-child {
+  border-right: 0;
+  padding-right: 0;
+}
+
+.menu__link {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.menu__link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.subheader {
+  min-height: 84px;
+  background-color:rgba(0,0,0, .6);
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 16px;
+  max-width: 100%;
+}
+
+.logo-text {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 300;
+  color: #ffffff;
+  opacity: 0.5;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.phone-text {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 23px;
+}
+
+.phone {
+  display: block;
+  text-align: right;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 8px;
+}
+.phone:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.subheader-btn {
+  display: block;
+  width: 100%;
+  min-height: 46px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0;
+  margin-top: 19px;
+}
+
+.main {
+  min-height: 665px;
+  padding: 67px 0 129px 0;
+  /* background-color: #cccccc; */
+}
+
+.main-title {
+  font-size: 60px;
+  line-height: 46px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  /* margin-top: 67px; */
+}
+
+.main-subtitle {
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.main-btn {
+  max-width: 259px;
+  min-height: 63px;
+  font-size: 18px;
+  margin: 118px auto 0;
+}
