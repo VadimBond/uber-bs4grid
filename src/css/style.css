@@ -5,26 +5,28 @@ html, body {
 }
 
 .wrapper-bg {
-  background: url(../img/main/main_bg.jpg) center center/cover no-repeat;
+  background: #ccc url(../img/promo/promo_bg.jpg) center center/cover no-repeat;
 }
 
 /* header */
+.header {
+  color: #fff;
+}
+
 .header-nav {
-  min-height: 50px;
   background-color: #212121;
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
-  padding: 13px 70px;
+  padding: 1.25% 6.1%;
   list-style-type: none;
 }
 
 .menu__item {
   border-right: 2px dotted #000000;
-  padding-right: 30px;
-
+  padding-right: 3%;
 }
 .menu__item:last-child {
   border-right: 0;
@@ -34,11 +36,11 @@ html, body {
 .menu__link {
   font-size: 15px;
   font-weight: 300;
-  color: #ffffff;
+  color: inherit;
 }
 .menu__link:hover {
-  color: #ffffff;
-  text-decoration: none;
+  color: inherit;
+  /* text-decoration: none; */
 }
 
 .subheader {
@@ -56,9 +58,7 @@ html, body {
   display: inline-block;
   font-size: 13px;
   font-weight: 300;
-  color: #ffffff;
   opacity: 0.5;
-  margin: 0;
   margin-top: 6px;
 }
 
@@ -68,8 +68,7 @@ html, body {
   font-size: 12px;
   line-height: 1;
   font-weight: 300;
-  color: #ffffff;
-  margin-top: 23px;
+  margin-top: 22px;
 }
 
 .phone {
@@ -79,12 +78,12 @@ html, body {
   font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
-  color: #ffffff;
+  color: inherit;
   margin-top: 8px;
 }
 .phone:hover {
-  color: #ffffff;
-  text-decoration: none;
+  color: inherit;
+  /* text-decoration: none; */
 }
 
 .subheader-btn {
@@ -97,52 +96,45 @@ html, body {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #ffffff;
+  color: inherit;
   padding: 0;
   margin-top: 19px;
 }
 
-.main {
-  min-height: 665px;
-  padding: 67px 0 129px 0;
-  /* background-color: #cccccc; */
+.promo {
+  color: #fff;
+  text-align: center;
+  padding: 3.7% 0 7.4%;
 }
 
-.main-title {
+.promo-title {
   font-size: 60px;
   line-height: 46px;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
-  color: #ffffff;
-  text-align: center;
   margin: 0;
-  /* margin-top: 67px; */
 }
 
-.main-subtitle {
+.promo-subtitle {
   font-size: 36px;
   line-height: 30px;
   font-weight: 700;
-  color: #ffffff;
-  text-align: center;
   text-transform: uppercase;
-  margin: 0;
+  margin-bottom: 0;
   margin-top: 20px;
 }
 
-.description {
+.promo-description {
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-  color: #ffffff;
-  margin: 0;
-  margin-top: 24px;
-  text-align: center;
+  margin-bottom: 0;
+  margin-top: 22px;
 }
 
-.main-btn {
+.promo-btn {
   max-width: 259px;
   min-height: 63px;
   font-size: 18px;
-  margin: 118px auto 0;
+  margin: 12.4% auto 0;
 }
