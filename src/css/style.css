@@ -101,6 +101,7 @@ html, body {
   margin-top: 19px;
 }
 
+/* promo */
 .promo {
   color: #fff;
   text-align: center;
@@ -137,4 +138,10 @@ html, body {
   min-height: 63px;
   font-size: 18px;
   margin: 12.4% auto 0;
+}
+
+/* advantages */
+.advantages {
+  text-align: center;
+  padding: 3.9% 0 3.6%; 
 }
