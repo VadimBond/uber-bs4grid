@@ -1,8 +1,9 @@
 @import "fonts";
 @import "common";
+@import "vars";
 
 html, body {
-  font-family: 'Roboto', sans-serif;
+  font-family: $ff-main;
 }
 
 .wrapper-bg {
@@ -251,4 +252,32 @@ html, body {
       cursor: pointer;
     }
   }
+}
+
+/* selection */
+.selection {
+  background:#070716 url(../img/mobile/mobile_bg.jpg) bottom center / 100% 44.3% no-repeat;
+  text-align: center;
+  padding: 3.1% 0 7.1%;
+  min-height: 896px;
+
+  &-label {
+    margin-bottom: 2.7%;
+  }
+
+  &-title {
+    margin-bottom: 1.5%;
+  }
+
+  &-subtitle {
+    margin-bottom: 4.9%;
+  }
+
+  &-descr {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #222222;
+    margin-bottom: 0;
+    }
 }
