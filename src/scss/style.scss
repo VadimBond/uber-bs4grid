@@ -1,6 +1,7 @@
 @import "fonts";
 @import "common";
 @import "vars";
+@import "mixins";
 
 html, body {
   font-family: $ff-main;
@@ -69,6 +70,8 @@ html, body {
     color: inherit;
     padding: 0;
     margin-top: 19px;
+
+    @include hover-darken;
   }
 }
 
@@ -250,6 +253,8 @@ html, body {
       justify-content: center;
       align-items: center;
       cursor: pointer;
+
+      @include hover-darken;
     }
   }
 }

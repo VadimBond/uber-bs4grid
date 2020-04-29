@@ -1,0 +1,6 @@
+@mixin hover-darken() {
+  transition: 0.9s;
+  &:hover {
+    color: darken(#1eacc7, 20%);
+  }
+}
