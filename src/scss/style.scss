@@ -190,7 +190,7 @@ html, body {
 
 /* mobile */
 .mobile {
-  background: #1eacc7 url(../img/mobile/mobile_bg.jpg) center (center / cover) no-repeat;
+  background: #1eacc7 url(../img/mobile/mobile_bg.jpg) center center / cover no-repeat;
   text-align: center;
   padding: 2.6% 0 4.4%;
 
@@ -285,4 +285,99 @@ html, body {
     color: #222222;
     margin-bottom: 0;
     }
+}
+
+/* condition */
+.condition {
+  text-align: center;
+  padding: 3.7% 0 4.6%;
+  
+  &-label {
+    margin-bottom: 2.7%;
+  }
+
+  &-title {
+    margin-bottom: 2.7%;
+  }
+
+  &-block {
+    text-align: start;
+
+    &__title {
+      font-size: 22px;
+      line-height: 1;
+      font-weight: 400;
+      margin-bottom: 20px;
+
+      &--blue {
+        color: $conditions-color;
+      }
+      &--pink {
+        color: $requirements-color;
+      } 
+    }
+
+    &__text {
+      font-size: 17px;
+      line-height: 24px;
+      font-weight: 300;
+      color: $conditions-color;
+      margin-bottom: 0;
+    }
+  }
+
+  &-list {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    &__item {
+      display: flex;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 24px;
+      color: #222222;
+      list-style: none;
+      margin-bottom: 15px;
+
+      &--blue {
+        @include before-blue;
+      }
+      &--pink {
+        @include before-pink;
+      }
+    }
+  }
+}
+
+/* world */
+.world {
+  text-align: center;
+  padding: 2.6% 0 2.6%;
+  background: #080816 url(../img/world/world_bg.jpg) center center / cover no-repeat;
+    
+  &-label {
+    margin-bottom: 1.7%;
+  }
+
+  &-title {
+    margin-bottom: 1.1%;
+  }
+
+  &-subtitle {
+    margin-bottom: 26%;
+  }
+
+  &-cities {
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #1fbad6;
+    transition: 0.9s color;
+
+    &:hover {
+      text-decoration: none;
+      color: darken(#1fbad6, 25%);
+      border: 1px solid #1fbad6;
+    }
+  }
 }

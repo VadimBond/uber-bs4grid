@@ -4,3 +4,23 @@
     color: darken(#1eacc7, 20%);
   }
 }
+
+@mixin before-blue {
+  &:before {
+    content: "";
+    padding-right: 21px;
+    margin-top: 3px;
+    margin-right: 12px;
+    background: url(../img/condition/blue.png) 0 0 no-repeat;
+  }
+}
+
+@mixin before-pink {
+  &:before {
+    content: "";
+    padding-right: 21px;
+    margin-top: 3px;
+    margin-right: 12px;
+    background: url(../img/condition/pink.png) 0 0 no-repeat;
+  }
+}
