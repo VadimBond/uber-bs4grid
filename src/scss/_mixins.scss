@@ -5,6 +5,12 @@
   }
 }
 
+@mixin hover-outline() {
+  &:hover {
+    outline: 2px solid #1fbad6;
+  }
+}
+
 @mixin before-blue {
   &:before {
     content: "";

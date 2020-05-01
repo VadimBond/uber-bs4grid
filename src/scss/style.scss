@@ -1,3 +1,4 @@
+@import "base";
 @import "fonts";
 @import "common";
 @import "vars";
@@ -335,7 +336,6 @@ html, body {
       font-weight: 300;
       line-height: 24px;
       color: #222222;
-      list-style: none;
       margin-bottom: 15px;
 
       &--blue {
@@ -375,9 +375,132 @@ html, body {
     transition: 0.9s color;
 
     &:hover {
-      text-decoration: none;
       color: darken(#1fbad6, 25%);
-      border: 1px solid #1fbad6;
+      outline: 2px solid #1fbad6;
     }
   }
+}
+
+/* footer */
+.footer {
+  padding: 3.8% 1.7% 2.2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &-social {
+    width: 25%;
+    display: flex;
+    
+    &__circle {
+      width: 32px;
+      height: 32px;
+      background-color: #070716;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+    &__icon {
+      color: #fff;
+    }
+  }
+
+  &-nav {
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:before {
+      content: "";
+      display: block;
+      width: 299px;
+      height: 4px;
+      background-color: #1fbad6;
+      position: absolute;
+      top: -35%;
+    }
+
+    &__list {
+      padding-left: 0;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+
+      &--big {
+        width: 93%;
+        margin-bottom: 10px;
+
+        .footer-nav__link {
+          font-size: 15px;
+          font-weight: 400;
+          text-transform: uppercase;
+          color: #070716;
+        }
+      }
+      &--small {
+        width: 100%;
+        margin-bottom: 15px;
+
+        .footer-nav__link {
+          font-size: 11px;
+          font-weight: 300;
+          text-transform: uppercase;
+          color: #999999;
+        }
+      }
+    }
+
+    &__link {
+      @include hover-outline;
+    }
+
+    &__lang {
+      font-size: 11px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #1fbad6;
+      transition: 0.9s color;
+
+      &:hover {
+        color: darken(#1fbad6, 25%);
+        outline: 2px solid #1fbad6;
+      }
+    }
+  }
+
+  &-store {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+
+    &__item {
+      display: inline-block;
+      max-width: 90px;
+      max-height: 25px;
+      border-radius: 5%;
+      overflow: hidden;
+
+      &:not(:first-child) {
+        margin-left: 10px;
+      }
+    }
+
+    &__logo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.finish {
+  height: 8px;
+  background-color: #070716;
 }
