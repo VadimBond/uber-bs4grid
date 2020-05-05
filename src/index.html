@@ -25,19 +25,25 @@
               <li class="menu__item"><a href="#" class="menu__link">Оставить заявку</a></li>
             </ul>
           </div>
+          <div class="hamburger">
+            <span class="hamburger__item"></span>
+            <span class="hamburger__item"></span>
+            <span class="hamburger__item"></span>
+          </div>
         </nav>
         <div class="subheader">
           <div class="container p-0">
-            <div class="row">
-              <div class="col-md-4 offset-md-1">
-                <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+            <div class="row m-0">
+              <div class=" col-6 col-md-5 col-lg-4 offset-lg-1">
+                <a href="#" class="logo"><img src="img/logo.png" alt="logo" class="logo-img"></a>
                 <span class="logo-text">Официальный партнер Uber в Москве</span>
               </div>
-              <div class="col-md-2 offset-md-2">
+              <div class=" sm-hidden col-md-4 col-lg-3 offset-lg-1 col-xl-2 offset-xl-2">
                 <span class="phone-text">Звоните нам ежедневно</span>
                 <a href="tel:+74957970988" class="phone">8 495 797 09 88</a>
               </div>
-              <div class="col-md-2">
+              <div class="col-6 col-md-3 col-lg-2 justify-content-end">
+                <a href="tel:+74957970988" class="phone sm-visible">8 495 797 09 88</a>
                 <button class="subheader-btn">заказать звонок</button>
               </div>
             </div>
@@ -47,8 +53,8 @@
   
       <section class="promo">
         <div class="container p-0">
-          <div class="row">
-            <div class="col-md-10 offset-md-1">
+          <div class="row m-0">
+            <div class="col-12 col-lg-10 offset-lg-1">
               <h1 class="promo-title">компания uber partners!</h1>
               <h2 class="promo-subtitle">приглашаем водителей! на своем авто!</h2>
               <p class="promo-description">Компания UBER динамически развивающаяся. Компания на рынке занимает лидирующее место среди таксомоторных компаний. Компания абсолютно прозрачная вы можете контролировать все процессы у себя в личном кабинете. Бонуcная система. Помимо выполненной работы по заказам, компания начисляет бонусы за пиковое время.</p>
@@ -66,76 +72,92 @@
         <button class="label label--black advantages-label">преимущества</button>
         <h2 class="title title--black advantages-title">8 причин начать работать с нами</h2>
 
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-6 mt-4">
+        <div class="row m-0 justify-content-center align-items-center">
+          <div class="col-sm-6 mt-4">
             <div class="cause">
-              <img src="img/advantages/credit_card.png" alt="picture">
-              <div class="descr">
-                <h3 class="descr-title">Никаких наличных, оплата происходит автоматически</h3>
-                <p class="descr-text">Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
+              <div class="cause-wrapper">
+                <img src="img/advantages/credit_card.png" alt="picture" class="cause-wrapper__img">
+              </div>
+              <div class="cause-descr">
+                <h3 class="cause-descr__title">Никаких наличных, оплата происходит автоматически</h3>
+                <p class="cause-descr__text">Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-sm-6 mt-4">
             <div class="cause">
-              <img src="img/advantages/screen.png" alt="picture">
-              <div class="descr">
-                <h3 class="descr-title">Комиссия 8% + БОНУСЫ</h3>
-                <p class="descr-text">У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку, некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители зарабатывают больше!</p>
+              <div class="cause-wrapper">
+                <img src="img/advantages/screen.png" alt="picture" class="cause-wrapper__img">
+              </div>
+              <div class="cause-descr">
+                <h3 class="cause-descr__title">Комиссия 8% + БОНУСЫ</h3>
+                <p class="cause-descr__text">У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку, некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители зарабатывают больше!</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4">   
+          <div class="col-sm-6 mt-4">   
             <div class="cause">
-              <img src="img/advantages/money.png" alt="picture">
-              <div class="descr">
-                <h3 class="descr-title">Высокий доход с гарантированными выплатами</h3>
-                <p class="descr-text">Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам не нужно оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги и ведение банковского счета.</p>
+              <div class="cause-wrapper">
+                <img src="img/advantages/money.png" alt="picture" class="cause-wrapper__img">
+              </div>
+              <div class="cause-descr">
+                <h3 class="cause-descr__title">Высокий доход с гарантированными выплатами</h3>
+                <p class="cause-descr__text">Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам не нужно оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги и ведение банковского счета.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-sm-6 mt-4">
             <div class="cause">
-              <img src="img/advantages/calendar.png" alt="picture">
-              <div class="descr">
-                <h3 class="descr-title">Работа в удобное время, никаких графиков</h3>
-                <p class="descr-text">Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии. Вы можете подрабатывать только утром, вечером, в выходные или праздничные дни!</p>
+              <div class="cause-wrapper">
+                <img src="img/advantages/calendar.png" alt="picture" class="cause-wrapper__img">
+              </div>
+              <div class="cause-descr">
+                <h3 class="cause-descr__title">Работа в удобное время, никаких графиков</h3>
+                <p class="cause-descr__text">Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии. Вы можете подрабатывать только утром, вечером, в выходные или праздничные дни!</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-sm-6 mt-4">
             <div class="cause">
-              <img src="img/advantages/key.png" alt="picture">
-              <div class="descr">
-                <h3 class="descr-title">Комфортное, прозрачное и простое подключение</h3>
-                <p class="descr-text">Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к нам! Вы присылаете нам копии документов, мы регистрируем Вас и присылаем данные для подключения, через 1-2 дня Вы можете начинать работать!</p>
+              <div class="cause-wrapper">
+                <img src="img/advantages/key.png" alt="picture" class="cause-wrapper__img">
+              </div>
+              <div class="cause-descr">
+                <h3 class="cause-descr__title">Комфортное, прозрачное и простое подключение</h3>
+                <p class="cause-descr__text">Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к нам! Вы присылаете нам копии документов, мы регистрируем Вас и присылаем данные для подключения, через 1-2 дня Вы можете начинать работать!</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-sm-6 mt-4">
             <div class="cause">
-              <img src="img/advantages/map.png" alt="picture">
-              <div class="descr">
-                <h3 class="descr-title">Всегда большое количество заказов</h3>
-                <p class="descr-text">Приложение показывает, где на данный момент больше всего заказов и где действуют повышенные тарифы. У Вас не будет простоя и холостых пробегов. Наши пассажиры всегда приятные и абсолютно неконфликтные люди, которых приятно возить.</p>
+              <div class="cause-wrapper">
+                <img src="img/advantages/map.png" alt="picture" class="cause-wrapper__img">
+              </div>
+              <div class="cause-descr">
+                <h3 class="cause-descr__title">Всегда большое количество заказов</h3>
+                <p class="cause-descr__text">Приложение показывает, где на данный момент больше всего заказов и где действуют повышенные тарифы. У Вас не будет простоя и холостых пробегов. Наши пассажиры всегда приятные и абсолютно неконфликтные люди, которых приятно возить.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-sm-6 mt-4">
             <div class="cause">
-              <img src="img/advantages/phone.png" alt="picture">
-              <div class="descr">
-                <h3 class="descr-title">Круглосуточная поддержка</h3>
-                <p class="descr-text">В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.</p>
+              <div class="cause-wrapper">
+                <img src="img/advantages/phone.png" alt="picture" class="cause-wrapper__img">
+              </div>
+              <div class="cause-descr">
+                <h3 class="cause-descr__title">Круглосуточная поддержка</h3>
+                <p class="cause-descr__text">В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-sm-6 mt-4">
             <div class="cause">
-              <img src="img/advantages/car.png" alt="picture">
-              <div class="descr">
-                <h3 class="descr-title">Без шашечек и наклеек</h3>
-                <p class="descr-text">Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.</p>
+              <div class="cause-wrapper">
+                <img src="img/advantages/car.png" alt="picture" class="cause-wrapper__img">
+              </div>
+              <div class="cause-descr">
+                <h3 class="cause-descr__title">Без шашечек и наклеек</h3>
+                <p class="cause-descr__text">Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.</p>
               </div>
             </div>
           </div>
@@ -150,38 +172,38 @@
         <h2 class="title title--black mobile-title">мобильное приложение убер</h2>
         <p class="subtitle subtitle--black mobile-subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</p>
 
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-4 mt-3">
+        <div class="row m-0 justify-content-center align-items-center">
+          <div class="col-sm-6 col-lg-4 mt-3">
             <div class="mobile-block mobile-block--1">
               <h3 class="mobile-block__title">оформление заказа одним касанием</h3>
               <div class="mobile-block__plus">&plus;</div>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
+          <div class="col-sm-6 col-lg-4 mt-3">
             <div class="mobile-block mobile-block--2">
               <h3 class="mobile-block__title">надежная подача</h3>
               <div class="mobile-block__plus">&plus;</div>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
+          <div class="col-sm-6 col-lg-4 mt-3">
             <div class="mobile-block mobile-block--3">
               <h3 class="mobile-block__title">прозрачные цены</h3>
               <div class="mobile-block__plus">&plus;</div>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
+          <div class="col-sm-6 col-lg-4 mt-3">
             <div class="mobile-block mobile-block--4">
               <h3 class="mobile-block__title">безналичная оплата</h3>
               <div class="mobile-block__plus">&plus;</div>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
+          <div class="col-sm-6 col-lg-4 mt-3">
             <div class="mobile-block mobile-block--5">
               <h3 class="mobile-block__title">обратная связь</h3>
               <div class="mobile-block__plus">&plus;</div>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
+          <div class="col-sm-6 col-lg-4 mt-3">
             <div class="mobile-block mobile-block--6">
               <h3 class="mobile-block__title">разделить стоимость поездки</h3>
               <div class="mobile-block__plus">&plus;</div>
@@ -197,7 +219,9 @@
         <button class="label label--white selection-label">возможности</button>
         <h2 class="title title--white selection-title">выбор - отличная штука!</h2>
         <p class="subtitle subtitle--white selection-subtitle">Закажите автомобиль, который подходит вам по стилю и бюджету</p>
-        <img src="img/selection/uberX.png" alt="picture" class="selection-car">
+        <div class="selection-car">
+          <img src="img/selection/uberX.png" alt="picture" class="selection-car__img">
+        </div>
         <p class="selection-descr">Машины на каждый день.<br>Лучше, быстрее и дешевле, чем такси</p>
       </div>
     </section>
@@ -207,8 +231,8 @@
         <button class="label label--black condition-label">возможности</button>
         <h2 class="title title--black condition-title">условия и требования</h2>
 
-        <div class="row align-items-start">
-          <div class="col-md-5">
+        <div class="row m-0 align-items-start">
+          <div class="col-sm-6 col-lg-5 mt-4">
             <div class="condition-block">
               <h3 class="condition-block__title condition-block__title--blue">УСЛОВИЯ: со своим авто:</h3>
               <ul class="condition-list">
@@ -223,7 +247,7 @@
               <p class="condition-block__text">В день заработок составляет 7000-12000р + бонус 3000т рублей</p>
             </div>
           </div>
-          <div class="col-md-5 offset-md-1">
+          <div class="col-sm-6 col-lg-5 offset-lg-1 mt-4">
             <div class="condition-block">
               <h3 class="condition-block__title condition-block__title--blue">УСЛОВИЯ: на авто компании:</h3>
               <ul class="condition-list">
@@ -235,8 +259,8 @@
           </div>
         </div>
 
-        <div class="row align-items-start mt-5">
-          <div class="col-md-5">
+        <div class="row m-0 align-items-start">
+          <div class="col-sm-6 col-lg-5 mt-4">
             <div class="condition-block">
               <h3 class="condition-block__title condition-block__title--pink">ТРЕБОВАНИЕ</h3>
               <ul class="condition-list">
@@ -248,7 +272,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-5 offset-md-1">
+          <div class="col-sm-6 col-lg-5 offset-lg-1 mt-4">
             <div class="condition-block condition-block--pink">
               <h3 class="condition-block__title condition-block__title--pink">ДОКУМЕНТЫ</h3>
               <ul class="condition-list condition-list--pink">
@@ -302,5 +326,6 @@
       </div>
     </footer>
     <div class="finish"></div>
+    <script src="js/script.js"></script>
   </body>
 </html>
